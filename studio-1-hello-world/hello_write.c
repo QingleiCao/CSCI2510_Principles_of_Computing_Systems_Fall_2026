@@ -1,1 +1,10 @@
-//Replace the contents of this file with your hello_write.c
+// Name: Dawson Williams
+// Date: 2026-09-24
+// Print a greeting using the write() system call.
+
+#include <unistd.h>
+
+int main(int argc, char* argv[]){
+	write(STDOUT_FILENO, "Hello, world!\n", 100);
+	return 0;
+}
